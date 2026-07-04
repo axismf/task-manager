@@ -1,2 +1,10 @@
 # Local Pi runtime state
 .atl/
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# OS
+.DS_Store
+node_modules/\ndist/\n
