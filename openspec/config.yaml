@@ -1,0 +1,31 @@
+# OpenSpec project configuration
+# Generated / maintained by sdd-init and the SDD orchestrator
+
+project: testeo-openpencil
+
+# Artifact store preference for SDD phases.
+# Options: openspec | engram | hybrid
+# - openspec: artifacts as .md files in this repo (git-visible)
+# - engram:   artifacts in Engram memory only (no files created)
+# - hybrid:   both (higher token cost, maximum resilience)
+artifact_store: engram
+
+# Execution mode default for SDD sessions.
+# Options: interactive | auto
+execution_mode: interactive
+
+# Stack context
+stack:
+  framework: react
+  build_tool: vite
+  styling: tailwindcss@3
+  language: javascript
+  node: ">=20"
+
+# Testing
+strict_tdd: false
+test_command: null
+
+# Review budget
+review_budget_lines: 400
+chained_pr_strategy: ask-on-risk
