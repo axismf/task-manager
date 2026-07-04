@@ -16,9 +16,9 @@ export default function App() {
   } = useTasks();
 
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-800">
-      <main className="max-w-md mx-auto mt-10 bg-white rounded-lg shadow p-6">
-        <h1 className="text-2xl font-bold mb-4 text-center">Task Manager</h1>
+    <div className="min-h-screen bg-[#181616] text-[#c5c9c5]">
+      <main className="max-w-md mx-auto mt-10 bg-[#282727] rounded-lg shadow p-6">
+        <h1 className="text-2xl font-bold mb-4 text-center text-[#c5c9c5]">Task Manager</h1>
 
         <TaskInput onAdd={addTask} />
         <FilterBar filter={filter} onFilterChange={setFilter} />

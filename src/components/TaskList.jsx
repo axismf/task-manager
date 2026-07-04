@@ -14,7 +14,7 @@ import TaskItem from './TaskItem';
 export default function TaskList({ tasks, filter, onToggle, onDelete }) {
   if (tasks.length === 0) {
     return (
-      <p className="text-center text-slate-400 py-8 text-sm">
+      <p className="text-center text-[#737c73] py-8 text-sm">
         {EMPTY_MESSAGES[filter]}
       </p>
     );

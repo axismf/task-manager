@@ -1,7 +1,7 @@
 import { FILTERS } from '../constants';
 
-const ACTIVE_TAB = 'px-3 py-1 rounded text-sm font-medium bg-blue-600 text-white';
-const INACTIVE_TAB = 'px-3 py-1 rounded text-sm font-medium text-slate-600 hover:bg-slate-200';
+const ACTIVE_TAB = 'px-3 py-1 rounded text-sm font-medium bg-[#c4746e] text-[#282727]';
+const INACTIVE_TAB = 'px-3 py-1 rounded text-sm font-medium text-[#737c73] hover:bg-[#393836] hover:text-[#c5c9c5]';
 
 /**
  * Renders All / Active / Completed filter tabs.
